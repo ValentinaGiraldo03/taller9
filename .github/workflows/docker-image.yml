@@ -23,4 +23,4 @@ jobs:
         run: docker build . --file Dockerfile --tag valentinagiraldo/express-randomquotes:latest
 
       - name: Docker Push
-        run: docker push valentinagiraldo/express-randomquotes:latest
+        run: docker push valentinagiraldo/express-randomquotes
